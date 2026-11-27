@@ -22,3 +22,11 @@ jobs:
         run: python scripts/build_skills.py --check
       - name: Committed workbook is up to date
         run: git diff --exit-code --stat workbook/TaxKit.cells.json
+  test-py39:
+    # the oldest Python the README and pyproject promise; no longer on the hosted runner image
+    runs-on: ubuntu-latest
+    container: python:3.9-slim
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install -r requirements-dev.txt
+      - run: python -m pytest -q
