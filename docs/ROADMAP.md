@@ -1,6 +1,6 @@
 # Roadmap: the next three TaxKit skills
 
-> Selected by a 16-agent adversarial tournament (4 rounds of attack, defend and judge), run on 2026-11-26 against a market survey of existing tax skills. The worked examples below were re-run on the engine and match.
+> The worked examples below were re-run on the engine and match.
 
 
 ## The recommendation
