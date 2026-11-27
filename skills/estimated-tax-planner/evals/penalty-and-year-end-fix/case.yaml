@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: penalty-and-year-end-fix
+expected_outcome: |
+  Projects about $31,487 of 2025 tax, identifies the 110% prior-year safe harbor ($26,400), a penalty of about $110.63 if nothing changes, and recommends about $2,400 of extra W-4 withholding before Dec 31 over a Jan 15 payment, with keeping an IRA distribution ranked as not worthwhile.

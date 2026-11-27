@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: s-corp-distribution-memo
+expected_outcome: |
+  A FIAC memo concluding the distribution is a tax-free return of basis, with basis computation and authority.

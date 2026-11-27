@@ -1,0 +1,156 @@
+{
+ "source": "Apple Inc. Form 10-K filed 2026-11-03, accession 0000320193-26-000026 (SEC XBRL, public)",
+ "facts": [
+  {
+   "concept": "CurrentFederalTaxExpenseBenefit",
+   "end_date": "2026-09-26",
+   "value": "11307000000.00",
+   "axises": [],
+   "start_date": "2025-09-28"
+  },
+  {
+   "concept": "CurrentFederalTaxExpenseBenefit",
+   "end_date": "2025-09-27",
+   "value": "11487000000.00",
+   "axises": [],
+   "start_date": "2024-09-29"
+  },
+  {
+   "concept": "CurrentFederalTaxExpenseBenefit",
+   "end_date": "2024-09-28",
+   "value": "5571000000.00",
+   "axises": [],
+   "start_date": "2023-10-01"
+  },
+  {
+   "concept": "CurrentFederalTaxExpenseBenefit",
+   "end_date": "2024-09-28",
+   "value": "-4800000000.00",
+   "axises": [
+    "LossContingenciesByNatureOfContingencyAxis: UnfavorableInvestigationOutcomeEUStateAidRulesMember"
+   ],
+   "start_date": "2024-06-30"
+  },
+  {
+   "concept": "DeferredFederalIncomeTaxExpenseBenefit",
+   "end_date": "2026-09-26",
+   "value": "594000000.00",
+   "axises": [],
+   "start_date": "2025-09-28"
+  },
+  {
+   "concept": "DeferredFederalIncomeTaxExpenseBenefit",
+   "end_date": "2025-09-27",
+   "value": "-1804000000.00",
+   "axises": [],
+   "start_date": "2024-09-29"
+  },
+  {
+   "concept": "DeferredFederalIncomeTaxExpenseBenefit",
+   "end_date": "2024-09-28",
+   "value": "-3080000000.00",
+   "axises": [],
+   "start_date": "2023-10-01"
+  },
+  {
+   "concept": "DeferredTaxAssetsValuationAllowance",
+   "end_date": "2026-09-26",
+   "value": "13260000000.00",
+   "axises": []
+  },
+  {
+   "concept": "DeferredTaxAssetsValuationAllowance",
+   "end_date": "2025-09-27",
+   "value": "10966000000.00",
+   "axises": []
+  },
+  {
+   "concept": "EffectiveIncomeTaxRateContinuingOperations",
+   "end_date": "2026-09-26",
+   "value": "0.17",
+   "axises": [],
+   "start_date": "2025-09-28"
+  },
+  {
+   "concept": "EffectiveIncomeTaxRateContinuingOperations",
+   "end_date": "2025-09-27",
+   "value": "0.16",
+   "axises": [],
+   "start_date": "2024-09-29"
+  },
+  {
+   "concept": "EffectiveIncomeTaxRateContinuingOperations",
+   "end_date": "2024-09-28",
+   "value": "0.24",
+   "axises": [],
+   "start_date": "2023-10-01"
+  },
+  {
+   "concept": "EffectiveIncomeTaxRateReconciliationAtFederalStatutoryIncomeTaxRate",
+   "end_date": "2026-09-26",
+   "value": "0.21",
+   "axises": [],
+   "start_date": "2025-09-28"
+  },
+  {
+   "concept": "IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest",
+   "end_date": "2026-09-26",
+   "value": "159237000000.00",
+   "axises": [],
+   "start_date": "2025-09-28"
+  },
+  {
+   "concept": "IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest",
+   "end_date": "2025-09-27",
+   "value": "132729000000.00",
+   "axises": [],
+   "start_date": "2024-09-29"
+  },
+  {
+   "concept": "IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest",
+   "end_date": "2024-09-28",
+   "value": "123485000000.00",
+   "axises": [],
+   "start_date": "2023-10-01"
+  },
+  {
+   "concept": "IncomeTaxExpenseBenefit",
+   "end_date": "2026-09-26",
+   "value": "27062000000.00",
+   "axises": [],
+   "start_date": "2025-09-28"
+  },
+  {
+   "concept": "IncomeTaxExpenseBenefit",
+   "end_date": "2025-09-27",
+   "value": "20719000000.00",
+   "axises": [],
+   "start_date": "2024-09-29"
+  },
+  {
+   "concept": "IncomeTaxExpenseBenefit",
+   "end_date": "2024-09-28",
+   "value": "29749000000.00",
+   "axises": [],
+   "start_date": "2023-10-01"
+  },
+  {
+   "concept": "UnrecognizedTaxBenefits",
+   "end_date": "2026-09-26",
+   "value": "22487000000.00",
+   "axises": []
+  },
+  {
+   "concept": "UnrecognizedTaxBenefits",
+   "end_date": "2025-09-27",
+   "value": "23242000000.00",
+   "axises": []
+  },
+  {
+   "concept": "UnrecognizedTaxBenefits",
+   "end_date": "2024-09-28",
+   "value": "22038000000.00",
+   "axises": []
+  }
+ ]
+}

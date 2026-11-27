@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "taxkit"
+version = "1.0.0"
+description = "Tested U.S. federal income tax engine (2025-2026, OBBBA) that generates a formula-driven Excel / Google Sheets workbook"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+dependencies = ["openpyxl>=3.1"]
+
+[project.optional-dependencies]
+dev = ["pytest>=7", "formulas>=1.2"]
+
+[project.scripts]
+taxkit = "taxkit.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

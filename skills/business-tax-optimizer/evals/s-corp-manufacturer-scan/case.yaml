@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: s-corp-manufacturer-scan
+expected_outcome: |
+  Runs the business optimizer and returns a ranked list with dollar estimates, assumptions and next steps, flagging timing vs permanent items.

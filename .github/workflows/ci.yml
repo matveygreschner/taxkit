@@ -1,0 +1,24 @@
+name: CI
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.10", "3.13"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - run: pip install -r requirements-dev.txt
+      - name: Unit tests (worked examples + portability + workbook smoke test)
+        run: python -m pytest -q
+      - name: Rebuild workbook and verify against the engine (fuzzed)
+        run: |
+          PYTHONPATH=src python -m taxkit build workbook/TaxKit.xlsx
+          python scripts/verify_workbook.py workbook/TaxKit.xlsx --fuzz 40
+      - name: Skills are valid and in sync with src/
+        run: python scripts/build_skills.py --check
+      - name: Committed workbook is up to date
+        run: git diff --exit-code --stat workbook/TaxKit.cells.json

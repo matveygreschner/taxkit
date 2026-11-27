@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: mfj-return-with-ltcg
+expected_outcome: |
+  Computes a 2026 MFJ return with preferential rates and the child tax credit, and reports the balance due or refund with steps.
