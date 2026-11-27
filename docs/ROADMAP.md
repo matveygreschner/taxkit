@@ -257,7 +257,7 @@ Commands:
 - **OBBBA parameters.** `business/bparams` and `opportunities.py` already encode §174A dates, bonus vintages, §163(j) EBITDA and the §280C 79% election. The provision uses those parameters directly, so the optimizer and the provision can never disagree.
 - **Company profiles.** A `CompanyProfile` from the optimizer can seed a provision, and the README can show the link: "scan this company, then book its provision."
 - **Memos.** `tax-memo-writer` drafts the valuation-allowance or UTB memo from the computed schedules.
-- **Workbook checks.** The workbook gets the same `verify_workbook.py` style recompute that gave you 1,457 / 0.
+- **Workbook checks.** The workbook gets the same `verify_workbook.py` style recompute that gave you 1,467 / 0.
 - **Real-company data: reuse `live.sec_tax_profile`.** It already turns SEC XBRL facts into pretax income, current/deferred federal/state/foreign tax, the valuation allowance, UTBs and cash taxes, with its own consistency checks. It is tested on a real Apple 10-K fixture (`tests/fixtures/aapl_10k_2026_tax_facts.json`). The provision skill reads 10-K disclosure data through it rather than through hand-typed figures. The only extension it needs is the ASU 2023-09 reconciliation concepts.
 
 ### Test strategy
