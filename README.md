@@ -40,7 +40,7 @@ Upload the zip under Settings, Capabilities, Skills, or unzip into `~/.claude/sk
 
 ## Testing
 
-74 worked problems, hand-checked business and estimated tax cases, and a recalculation of the workbook with an independent formula engine: 1,457 comparisons with 0 mismatches. A Google Sheets round trip matched all 874 formula cells. CI runs on Python 3.10 and 3.13.
+74 worked problems, hand-checked business and estimated tax cases, and a recalculation of the workbook with an independent formula engine: 1,467 comparisons with 0 mismatches. A Google Sheets round trip matched all 874 formula cells. CI runs on Python 3.10 and 3.13.
 
 ## Limits
 
