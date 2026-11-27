@@ -1,7 +1,6 @@
 # TaxKit
 
 [![CI](https://github.com/matveygreschner/taxkit/actions/workflows/ci.yml/badge.svg)](https://github.com/matveygreschner/taxkit/actions/workflows/ci.yml)
-[![Downloads](https://img.shields.io/github/downloads/matveygreschner/taxkit/total?label=downloads)](https://github.com/matveygreschner/taxkit/releases)
 
 A tested U.S. federal tax engine for 2025 and 2026, under current law after OBBBA. One Python engine computes tax the way the Code and IRS forms do, and drives an Excel and Google Sheets workbook, a business tax opportunity scanner and Claude skills.
 
